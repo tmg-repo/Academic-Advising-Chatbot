@@ -19,7 +19,7 @@ def main():
             from coursesAvail import coursesAvail
             coursesAvail()
         elif work in ans or job in ans:
-            from jobPossibilities import start, exit, jobs, jobSearch, error
+            from jobPossibilities import start, exit, jobs, jobsearch, error
             start()
         #elif stat in ans:
             #stat func
