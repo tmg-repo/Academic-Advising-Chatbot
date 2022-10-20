@@ -21,8 +21,9 @@ def main():
         elif work in ans or job in ans:
             from jobPossibilities import start, exit, jobs, jobsearch, error
             start()
-        #elif stat in ans:
-            #stat func
+        elif stat in ans:
+            from coursestats import coursestats
+            coursestats()
         elif advisor in ans or appointment in ans:
             from bookingAppointment import start, appointment, error, exit
             start()
