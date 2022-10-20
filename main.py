@@ -2,7 +2,7 @@ def main():
     ans = input("What can I help you with today? :)\n")
     
     help = "help"
-    prereq = "prerequisites"
+    prereqs = "prerequisites"
     courses = "courses"
     stat = "stat"
     advisor = "advisor"
@@ -24,7 +24,7 @@ def main():
             #stat func
         #elif advisor in ans or appointment in ans:
             #apointmet func
-        elif prereq in ans:
+        elif prereqs in ans:
             from prereq import prereq
             prereq()
         else:
