@@ -18,8 +18,9 @@ def main():
         if courses in ans:
             from coursesAvail import coursesAvail
             coursesAvail()
-        #elif work in ans or job in ans:
-            #job funtion
+        elif work in ans or job in ans:
+            from jobPossibilities import start, exit, jobs, jobSearch, error
+            start()
         #elif stat in ans:
             #stat func
         elif advisor in ans or appointment in ans:
