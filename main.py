@@ -22,8 +22,9 @@ def main():
             #job funtion
         #elif stat in ans:
             #stat func
-        #elif advisor in ans or appointment in ans:
-            #apointmet func
+        elif advisor in ans or appointment in ans:
+            from bookingAppointment import start, appointment, error, exit
+            start()
         elif prereqs in ans:
             from prereq import prereq
             prereq()
