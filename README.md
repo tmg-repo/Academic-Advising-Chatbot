@@ -13,3 +13,4 @@ The code for chatBot consists of 7 classes that are all run within our main clas
 | prereq | Prompts user to enter a COSC course that they would like to know the prerequisities for, and validates their input to ensure it is correct |
 | jobPossibilities | Asks user what course COSC course they are taking and returns potential jobs associated with that course |
 | bookingAppointment | Allows users to book academic advising appointments by providing the URL to the UBCO academic advising website | 
+| coursestats | Allows users to view historical course informaton regarding the grades of them by providing the URL to the ubcGrades website | 
