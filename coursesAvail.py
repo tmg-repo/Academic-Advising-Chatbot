@@ -58,5 +58,4 @@ def coursesAvail():
     prMes = f"The courses you're qualified to take are: {courseString}"
     print(prMes) 
     
-coursesAvail()
 
