@@ -1,4 +1,4 @@
-# UBCO Computer Science chatBot
+# UBCO Computer Science ChatBot
 
 Our chatBot is an acedmic tool for UBCO COSC students to aid them in the mundane tasks that come with course selection, scheduling, and acedmic advising!
 
@@ -6,6 +6,6 @@ The code for chatBot consists of X methods that are all ran within our main clas
 
 | Class | Description |
 | ----------- | ----------- |
-| Main | Title |
+| main | Title |
 | getHelp | Text |
 | coursesAvail | tect |
