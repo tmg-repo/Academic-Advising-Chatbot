@@ -43,5 +43,3 @@ def run():
 
     print("Press the enter key if you wish to search for another course. If not type exit.")
     user_input = str(input())
-
-run()

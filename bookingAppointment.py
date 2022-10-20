@@ -10,5 +10,3 @@ def run():
             return
         else: 
             print("Your input is not recognised. To exit this feature please type exit")
-
-run()
