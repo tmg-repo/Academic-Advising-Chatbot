@@ -57,4 +57,3 @@ def get_help():
         csvwriter.writerows(rows)
         
     
-get_help()
