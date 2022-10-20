@@ -7,4 +7,5 @@ The code for chatBot consists of X methods that are all ran within our main clas
 | Method | Description |
 | ----------- | ----------- |
 | Main | Title |
-| Paragraph | Text |
+| getHelp | Text |
+| coursesAvail | tect |
