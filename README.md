@@ -7,6 +7,6 @@ The code for chatBot consists of X methods that are all ran within our main clas
 
 | Class | Description |
 | ----------- | ----------- |
-| main | Title |
-| getHelp | Text |
-| coursesAvail | tect |
+| main | Begings conversation with user, runs fuction class based on user input and continues until user no longer requires its assistance |
+| getHelp | Logs user issues it found within the chatBot, storing them in csv file, and gives user pointers on how to communicate with bot.  |
+| coursesAvail | Asks user what courses they've takenn and outputs the courses the user has completed the prerequisites for. |
