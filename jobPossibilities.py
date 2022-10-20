@@ -37,9 +37,9 @@ def run():
                     print("The above jobs are associated with the course you are taking")
                 break
             except NameError:
-                print("1The course code you have entered is not recognised. Please try again or exit.")
+                print("The course code you have entered is not recognised. Please try again or exit.")
             except KeyError:
-                print("2The course code you have entered is not recognised. Please try again or exit.")
+                print("The course code you have entered is not recognised. Please try again or exit.")
 
     print("Press the enter key if you wish to search for another course. If not type exit.")
     user_input = str(input())
