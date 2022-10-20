@@ -13,6 +13,7 @@ def coursesAvail():
     if third == "Yes" or third == "yes":
         courseTaken.append("Third Year Standing")
         courseTaken.append("")
+        courseTaken.append("PREC 12")
 
     filename="withoutCodes.csv"
     filename2="coscCourses.csv"
