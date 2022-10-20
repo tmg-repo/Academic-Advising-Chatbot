@@ -24,8 +24,9 @@ def main():
             #stat func
         #elif advisor in ans or appointment in ans:
             #apointmet func
-        #elif prereq in ans:
-            #prereq func
+        elif prereq in ans:
+            from prereq import prereq
+            prereq()
         else:
             from getHelp import get_help
             get_help()
