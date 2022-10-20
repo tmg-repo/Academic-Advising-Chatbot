@@ -19,14 +19,14 @@ def main():
             from coursesAvail import coursesAvail
             coursesAvail()
         elif work in ans or job in ans:
-            from jobPossibilities import start, exit, jobs, jobsearch, error
-            start()
+            from jobPossibilities import run
+            run()
         elif stat in ans:
             from coursestats import coursestats
             coursestats()
         elif advisor in ans or appointment in ans:
-            from bookingAppointment import start, appointment, error, exit
-            start()
+            from bookingAppointment import run
+            run()
         elif prereqs in ans:
             from prereq import prereq
             prereq()
