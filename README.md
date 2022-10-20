@@ -11,3 +11,5 @@ The code for chatBot consists of X methods that are all run within our main clas
 | getHelp | Logs user issues it found within the chatBot, storing them in a csv file, and gives user pointers on how to communicate with the bot.  |
 | coursesAvail | Asks user what courses they've taken and outputs the courses the user has completed the prerequisites for. |
 | prereq | Prompts user to enter a COSC course that they would like to know the prerequisities for, and validates their input to ensure it is correct |
+| jobPossibilities | Asks user what course COSC course they are taking and returns potential jobs associated with that course |
+| bookingAppointment | Allows users to book academic advising appointments by providing the URL to the UBCO academic advising website | 
