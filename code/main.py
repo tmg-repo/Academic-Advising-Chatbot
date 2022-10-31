@@ -1,4 +1,20 @@
+import spacy
+from spacy import displacy
+
 def main():
+    NER = spacy.load("en_core_web_sm")
+    print("Hi I'm an academic advising chatbot!")
+    ans = input("Before we get started tell me a bit about yourself:\n")
+    ans = NER(ans)
+    name = ""
+    for word in ans.ents:
+        if "PERSON" in word.label_:
+            name = word.text
+    if name != "":
+        print(f"Hello {name}! It's great to meet you!")
+    else:
+        print("Hi! It's great to meet you!")
+
     ans = input("What can I help you with today? :)\n")
     
     help = "help"
