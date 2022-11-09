@@ -44,8 +44,7 @@ def main():
         if nothing in ans or nothing2 in ans:
             print("Thank you for talking with me, I hope this was helpful!")
             true = 1
-        else:
-            alternate()
+        
 
 
 
