@@ -32,16 +32,21 @@ def main():
         elif prereqs in ans:
             from prereq import prereq
             prereq()
-        else:
+        elif help in ans:
             from getHelp import get_help
             get_help()
+        else:
+            
+
             
         ans = input("What else can I help you with?\n")
         if nothing in ans or nothing2 in ans:
             print("Thank you for talking with me, I hope this was helpful!")
             true = 1
+        else:
+            print("f")
 
-    
+
 
 main()
 
