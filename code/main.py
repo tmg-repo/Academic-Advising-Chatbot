@@ -36,7 +36,8 @@ def main():
             from getHelp import get_help
             get_help()
         else:
-            
+            from alternateResponses import alternate
+            alternate()
 
             
         ans = input("What else can I help you with?\n")
@@ -44,7 +45,7 @@ def main():
             print("Thank you for talking with me, I hope this was helpful!")
             true = 1
         else:
-            print("f")
+            alternate()
 
 
 
