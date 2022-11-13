@@ -59,6 +59,23 @@ def prereq():
                     print("COSC 344.")
                 elif(str=="COSC 499"):
                     print("All of COSC 304, COSC 310, COSC 341.")
+
+                elif(str=="DATA 301"):
+                    print("Either (a) third-year standing, or (b) one of COSC 111 or COSC 122)")
+                elif(str=="DATA 310"):
+                    print("STAT 230 and MATH 221")
+                elif(str=="DATA 311"):
+                    print("Either (a) STAT 230 or (b) a score of 75 percent or more in one of APSC 254, BIOL 202, PSYO 373; and one of COSC 111, APSC 177")
+                elif(str=="DATA 315"):
+                    print("STAT 230")
+                elif(str=="DATA 405"):
+                    print("A score of more tha 60 percent in STAT 230")
+                elif(str=="DATA 407"):
+                    print("One of STAT 230, PSYO 372, BIOL 202")
+                elif(str=="DATA 410"):
+                    print("All of MATH 221, STAT 303, DATA 311.")
+                elif(str=="DATA 419B"):
+                    print("Fourth Year Standing")
             
         inp = user_input()
 
