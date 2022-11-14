@@ -38,6 +38,9 @@ Sample Output:
 5 output responses:
 This feature allows the bot to appear more "real", by alternating through a list of alternate, appropriate responses for when the user enters something that the bot can not understand. The bot requires the user to re-enter what they typed in a format that is understandable, and the multiple ways of asking for this, especially in a humourous way, should add to the user experience.
 
+Sample output:
+![output responses](Desktop/alternate responses.PNG)
+
 Porter Stemmer Algorithm:
 The chatbot can now take minor spellinng errors in inputs and still get the user to their proper destinationn within the system. With the porter stemmer algorithm, the chatbot will find the root of a word beinng inputed, regardless of plurals, and identify possible versions of this word the user is trying to use.
 
