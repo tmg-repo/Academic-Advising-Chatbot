@@ -16,14 +16,26 @@ The code for chatBot consists of 7 classes that are all run within our main clas
 | coursestats | Allows users to view historical course informaton regarding the grades of them by providing the URL to the ubcGrades website | 
 
 New features for Assignment 3:
+
 Synonym Recognition:
 The chatbot is now able to recognise common synonyms of words used for other features in the main class. This improves our chatBot because the user no longer needs to enter one specific word to use a feature. Now the user can use multiple similar words to use the same feature. 
+
+Sample Output:
+![Sample output](Images/synonym_sample.PNG)
 
 Sentiment Analysis:
 The chatbot can now recognise when the user is negative language which might indicate the user is feeling frustrated with the chatbot. The chatbot can then ask the user if they would like to continue using the chatbot or not. Additionally, this feature also allows the chatbot to ask the user how they felt about the conversation and react according to how positive or negative the users response was.
 
+Sample Output:
+![Sample output](Images/sentiment_sample.PNG)
+
 Named entity recognition:
 This feature allows the chatbot to recognise the users name once the user introduces themselves. Then the chatbot can use the users name when talking to them to give the program a more personable feel. 
 
+Sample Output:
+![Sample output](Images/ner_sample.PNG)
+
 5 output responses:
 This feature allows the bot to appear more "real", by alternating through a list of alternate, appropriate responses for when the user enters something that the bot can not understand. The bot requires the user to re-enter what they typed in a format that is understandable, and the multiple ways of asking for this, especially in a humourous way, should add to the user experience.
+
+
