@@ -1,4 +1,10 @@
+import nltk
+from nltk.stem import PorterStemmer
+from nltk.tokenize import sent_tokenize, word_tokenize
+
 def main():
+    ps = PorterStemmer()
+    
     ans = input("What can I help you with today? :)\n")
     
     help = "help"
@@ -15,19 +21,19 @@ def main():
     
     while true == 0:
     
-        if courses in ans:
+        if ps.stem(courses) in ans:
             from coursesAvail import coursesAvail
             coursesAvail()
-        elif work in ans or job in ans:
+        elif ps.stem(work) in ans or ps.stem(job) in ans:
             from jobPossibilities import run
             run()
-        elif stat in ans:
+        elif ps.stem(stat) in ans:
             from coursestats import coursestats
             coursestats()
-        elif advisor in ans or appointment in ans:
+        elif ps.stem(advisor) in ans or ps.stem(appointment) in ans:
             from bookingAppointment import run
             run()
-        elif prereqs in ans:
+        elif ps.stem(prereqs) in ans:
             from prereq import prereq
             prereq()
         else:
