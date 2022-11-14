@@ -20,5 +20,9 @@ def test_uinput(capsys):
     captured2 = capsys.readouterr()
     assert captured2.out == "Your input is not recognised. To exit this feature please type exit\n"
 
+    uinput("confusing phrase for the bot")
+    captured2 = capsys.readouterr()
+    assert captured2.out == "Your input is not recognised. To exit this feature please type exit\n"
+
     
     
