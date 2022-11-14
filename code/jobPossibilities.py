@@ -1,9 +1,9 @@
 def run():
     print("Hi! Welcome to the Job Possibilities Feature. To return to the home at any time type ""exit"". Otherwise hit enter")
 
-    x = str(input())
+    # x = str(input())
     
-    uinput(x)
+    # uinput(x)
 
 def uinput(x):
     user_in = x
