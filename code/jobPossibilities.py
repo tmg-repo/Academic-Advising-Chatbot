@@ -45,12 +45,5 @@ def courseCode(x):
                 print("The course code you have entered is not recognised. Please try again or exit.")
     except KeyError:
                 print("The course code you have entered is not recognised. Please try again or exit.")
-    
-    # print("Press the enter key if you wish to search for another course. If not type exit.")
-    # user_second = str(input())
-
-    # if user_second != "exit":
-    #     print("Enter the three digit code associated with the COSC class you are taking:")
-    #     uinput(user_second)
 
    
