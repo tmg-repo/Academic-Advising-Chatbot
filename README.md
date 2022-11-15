@@ -45,7 +45,10 @@ Porter Stemmer Algorithm:
 The chatbot can now take minor spellinng errors in inputs and still get the user to their proper destinationn within the system. With the porter stemmer algorithm, the chatbot will find the root of a word beinng inputed, regardless of plurals, and identify possible versions of this word the user is trying to use.
 
 Sample Outout:
-
+![output responses](Images/porter_stemmer.png)
 
 New Topic:
 Chatbot is no longer just for computer science students! It nnow can perform all the same features for data sceince students as well. Including, providing prerequisites and job possibilities.
+
+Sample Output:
+![output responses](Images/porter_stemmer.png)
