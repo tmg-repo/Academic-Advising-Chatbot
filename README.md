@@ -51,4 +51,4 @@ New Topic:
 Chatbot is no longer just for computer science students! It nnow can perform all the same features for data sceince students as well. Including, providing prerequisites and job possibilities.
 
 Sample Output:
-![output responses](Images/porter_stemmer.png)
+![output responses](Images/Data_topic.png)
