@@ -65,7 +65,7 @@ class gui:
             self.text_widget.insert(END, msg1)
             self.text_widget.configure(state=DISABLED)
         
-            msg2 = f"getResponse()\n\n"
+            msg2 = f"Hi, How can I help you? :)\n\n"
             self.text_widget.configure(state=NORMAL)
             self.text_widget.insert(END, msg2)
             self.text_widget.configure(state=DISABLED)
