@@ -23,6 +23,16 @@ def test_course_code(capsys):
     captured = capsys.readouterr()
     assert captured.out == "Data Scientist, Data Analyist\nThe above jobs are associated with the course you are taking\n"
 
+    courseCode("328")
+    captured = capsys.readouterr()
+    assert captured.out == "Network Engineer, Infastructure Engineer\nThe above jobs are associated with the course you are taking\n"
+
+    courseCode("999")
+    captured3 = capsys.readouterr()
+    assert captured3.out == "The course code you have entered is not recognised. Please try again or exit.\n"
+
+
+
 
 
 
