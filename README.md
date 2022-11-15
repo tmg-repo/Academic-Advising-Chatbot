@@ -52,3 +52,9 @@ Chatbot is no longer just for computer science students! It nnow can perform all
 
 Sample Output:
 ![output responses](Images/Data_topic.png)
+
+New Feature:
+Here is the gui added to the chatBot. It’s similar to most text message/chat interfaces, so its easy and familiar to users.
+
+Sample Output:
+![output responses](Images/gui.png)
