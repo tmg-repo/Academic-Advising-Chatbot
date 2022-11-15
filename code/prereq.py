@@ -1,11 +1,17 @@
-def prereq():  
-        courses = ["COSC 101", "COSC 111", "COSC 121", "COSC 122", "COSC 123", "COSC 210", "COSC 211", "COSC 221", "COSC 222", "COSC 301", "COSC 303", "COSC 304", "COSC 305", "COSC 310", "COSC 315", "COSC 320", "COSC 322", "COSC 328", "COSC 335", "COSC 341", "COSC 344", "COSC 360", "COSC 404", "COSC 407", "COSC 414", "COSC 421", "COSC 444", "COSC 499"]
+# def prereq():  
+#         courses = ["COSC 101", "COSC 111", "COSC 121", "COSC 122", "COSC 123", "COSC 210", "COSC 211", "COSC 221", "COSC 222", "COSC 301", "COSC 303", "COSC 304", "COSC 305", "COSC 310", "COSC 315", "COSC 320", "COSC 322", "COSC 328", "COSC 335", "COSC 341", "COSC 344", "COSC 360", "COSC 404", "COSC 407", "COSC 414", "COSC 421", "COSC 444", "COSC 499"]
 
-        def user_input():
-            inp = input("What COSC course would you like a prereq for? (enter in format COSC xxx)\n")
-            return inp
+#         inp = user_input()
 
-        def validate(str):
+#         while((inp in courses)==False):
+#             print("Please enter in correct format \n")
+#             inp = user_input()
+
+#         validate(inp)
+
+def validate(str):
+            courses = ["COSC 101", "COSC 111", "COSC 121", "COSC 122", "COSC 123", "COSC 210", "COSC 211", "COSC 221", "COSC 222", "COSC 301", "COSC 303", "COSC 304", "COSC 305", "COSC 310", "COSC 315", "COSC 320", "COSC 322", "COSC 328", "COSC 335", "COSC 341", "COSC 344", "COSC 360", "COSC 404", "COSC 407", "COSC 414", "COSC 421", "COSC 444", "COSC 499"]
+            
             if  str in courses:
                 if(str=="COSC 101" or str=="COSC 111" or str=="COSC 122"):
                     print("There are no prereqs for these courses.")
@@ -59,13 +65,8 @@ def prereq():
                     print("COSC 344.")
                 elif(str=="COSC 499"):
                     print("All of COSC 304, COSC 310, COSC 341.")
-            
-        inp = user_input()
 
-        while((inp in courses)==False):
-            print("Please enter in correct format \n")
-            inp = user_input()
-
-        validate(inp)
-
+def user_input():
+            inp = input("What COSC course would you like a prereq for? (enter in format COSC xxx)\n")
+            return inp
 

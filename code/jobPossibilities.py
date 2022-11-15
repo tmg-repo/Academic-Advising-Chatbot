@@ -1,9 +1,9 @@
 def run():
     print("Hi! Welcome to the Job Possibilities Feature. To return to the home at any time type ""exit"". Otherwise hit enter")
 
-    # x = str(input())
+    x = str(input())
     
-    # uinput(x)
+    uinput(x)
 
 def uinput(x):
     user_in = x
@@ -12,8 +12,8 @@ def uinput(x):
         print("Exiting Job Possibilities")
     else:
         print("Enter the three digit code associated with the COSC class you are taking:")
-        # y = str(input())
-        # courseCode(y)
+        y = str(input())
+        courseCode(y)
 
 
 def courseCode(x):
