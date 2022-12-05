@@ -13,6 +13,9 @@ def main():
     nothing = "nothing"
     nothing2 = "Nothing"
     true = 0
+    facts = "facts"
+    comp = "comp"
+    ubc = "ubc"
     
     while true == 0:
     
@@ -34,6 +37,15 @@ def main():
         elif directions in ans:
             from directions import directions
             directions()
+        elif facts in ans:
+            ans2=input("Would you like to hear interesting facts about UBCO or Computer Science from Wikipedia?")
+            
+            if comp in ans2:
+                from facts_comp import run
+                run()
+            else:
+                from facts_ubc import run
+                run()
         else:
             from getHelp import get_help
             get_help()
@@ -46,5 +58,4 @@ def main():
     
 
 main()
-
 

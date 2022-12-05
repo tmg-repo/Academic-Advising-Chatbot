@@ -18,6 +18,6 @@ def directions():
         print('The routes you can take are: '+routes[0]['summary']+'; The distance is: '+legs[0]['distance']['text'])
 
 
-directions()
+
 
 
