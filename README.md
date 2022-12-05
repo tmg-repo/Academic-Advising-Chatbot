@@ -1,5 +1,7 @@
 # UBCO Computer Science ChatBot
 
+## Individual section
+
 UPDATED README: 
 This README file contains details of API's that have been added to this repository. I cloned this repository from my group's original chatbot repository, which includes all of the details listed below. Everything has been kept the same, except I have made individual additions to this repository and have added new features using two API's that I have explained below.
 
@@ -7,6 +9,8 @@ This README file contains details of API's that have been added to this reposito
 | ----------- | ----------- |
 | Google Directions API | This is used in the system by helping the user be able to reach an in-person academic advising session if necessary. The API fetches directions for the user, as well as the distance they must travel. |
 | Wikipedia API | This is used to fetch interesting facts about UBCO as well as computer science. This was considered fitting as the chatbot has interests in both of these things and it is able to contribute positively to the user experience. |
+
+## Group section
 
 Our chatBot is an academic tool for UBCO COSC students to aid them in the mundane tasks that come with course selection, scheduling, and acedmic advising!
 
