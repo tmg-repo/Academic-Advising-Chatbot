@@ -1,4 +1,1 @@
-# UBCO Computer Science ChatBot
-
-
 
