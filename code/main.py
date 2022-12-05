@@ -7,6 +7,7 @@ def main():
     stat = "stat"
     advisor = "advisor"
     appointment = "appointment"
+    directions ="directions"
     work = "work"
     job = "job"
     nothing = "nothing"
@@ -30,6 +31,9 @@ def main():
         elif prereqs in ans:
             from prereq import prereq
             prereq()
+        elif directions in ans:
+            from directions import directions
+            directions()
         else:
             from getHelp import get_help
             get_help()
